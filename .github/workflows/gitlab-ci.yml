@@ -15,17 +15,13 @@ jobs:
         uses: actions/setup-java@v4
         with:
           distribution: temurin
-          java-version: '11'
+          java-version: '17'
           cache: maven
 
       - name: Run API automation tests
-        run: mvn clean test -Dsurefire.suiteXmlFiles=testng.xml
-
-      - name: Upload test reports
-        if: always()
-        uses: actions/upload-artifact@v4
-        with:
-          name: test-reports
-          path: |
-            target/
-            test-output/
+        env:
+          API_TOKEN: ${{ secrets.API_TOKEN }}
+          URL: ${{ secrets.URL }}
+          PUBLIC_API_TOKEN: ${{ secrets.PUBLIC_API_TOKEN}}
+          
+        run: mvn clean test
