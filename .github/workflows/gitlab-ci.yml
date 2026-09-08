@@ -25,3 +25,12 @@ jobs:
           PUBLIC_API_TOKEN: ${{ secrets.PUBLIC_API_TOKEN}}
           
         run: mvn clean test
+
+      - name: Upload test reports
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: api-test-reports
+          path: |
+            target/
+            test-output/
