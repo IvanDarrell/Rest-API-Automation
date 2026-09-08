@@ -7,9 +7,9 @@ import io.restassured.specification.RequestSpecification;
 public class RequestSpec {
 
 	
-	public static String baseUrl = "https://reqres.in";
-	public static String apiKey = "pro_469eb322b8e9c0031cdc69d787363fe7d66e7a6f204efe2655ac592919b22d00";
-	public static String publicToken = "reqres_fb14e66ed0554727bba29fdadd0dc4fa";
+	public static String baseUrl = System.getenv("URL");
+	public static String apiKey = System.getenv("API_TOKEN");
+	public static String publicToken = System.getenv("PUBLIC_API_TOKEN");
 	
 	public static String invalidtoken = "+++++++++++++++++++++++++==232";
 	
