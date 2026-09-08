@@ -1,0 +1,627 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-API_Test" class="navigator-link">
+              <span class="suite-name border-passed">API Test</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-API_Test" class="navigator-link ">
+                    <span>C:\Users\IVAN DARRELL\eclipse-workspace\rest-api-automation\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-API_Test" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-API_Test" class="navigator-link ">
+                    <span>1 group</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-API_Test" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-API_Test" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-API_Test" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-API_Test" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">18 methods,   18 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-API_Test" class="hide-methods passed suite-API_Test"> (hide)</a> <!-- hide-methods passed suite-API_Test -->
+                      <a href="#" panel-name="suite-API_Test" class="show-methods passed suite-API_Test"> (show)</a> <!-- show-methods passed suite-API_Test -->
+                    </span>
+                    <div class="method-list-content passed suite-API_Test">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-API_Test" title="com.api.automation.tests.RecordDeleteTest" class="method navigator-link" hash-for-method="deleteForbidden">deleteForbidden</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-API_Test" title="com.api.automation.tests.RecordDeleteTest" class="method navigator-link" hash-for-method="deleteInvalid">deleteInvalid</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-API_Test" title="com.api.automation.tests.RecordDeleteTest" class="method navigator-link" hash-for-method="deleteNonexisting">deleteNonexisting</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-API_Test" title="com.api.automation.tests.RecordDeleteTest" class="method navigator-link" hash-for-method="deleteProduct">deleteProduct</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-API_Test" title="com.api.automation.tests.RecordDeleteTest" class="method navigator-link" hash-for-method="deletenoAuthentication">deletenoAuthentication</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-API_Test" title="com.api.automation.tests.RecordDeleteTest" class="method navigator-link" hash-for-method="deletesameProduct">deletesameProduct</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-API_Test" title="com.api.automation.tests.RecordGetTest" class="method navigator-link" hash-for-method="getInvalidAuthentication">getInvalidAuthentication</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-API_Test" title="com.api.automation.tests.RecordGetTest" class="method navigator-link" hash-for-method="getListNotFound">getListNotFound</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-API_Test" title="com.api.automation.tests.RecordGetTest" class="method navigator-link" hash-for-method="getListRecords">getListRecords</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-API_Test" title="com.api.automation.tests.RecordGetTest" class="method navigator-link" hash-for-method="getNoAuthentication">getNoAuthentication</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-API_Test" title="com.api.automation.tests.RecordGetTest" class="method navigator-link" hash-for-method="getRecord">getRecord</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-API_Test" title="com.api.automation.tests.RecordPostTest" class="method navigator-link" hash-for-method="postMissingRequireddata">postMissingRequireddata</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-API_Test" title="com.api.automation.tests.RecordPostTest" class="method navigator-link" hash-for-method="postRecord">postRecord</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-API_Test" title="com.api.automation.tests.RecordPutTest" class="method navigator-link" hash-for-method="putForbidden">putForbidden</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-API_Test" title="com.api.automation.tests.RecordPutTest" class="method navigator-link" hash-for-method="putInvalidAuthentication">putInvalidAuthentication</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-API_Test" title="com.api.automation.tests.RecordPutTest" class="method navigator-link" hash-for-method="putNoAuthentication">putNoAuthentication</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-API_Test" title="com.api.automation.tests.RecordPutTest" class="method navigator-link" hash-for-method="putRecordNotFound">putRecordNotFound</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-API_Test" title="com.api.automation.tests.RecordPutTest" class="method navigator-link" hash-for-method="putUpdateRecord">putUpdateRecord</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-API_Test -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-API_Test" class="panel API_Test">
+          <div class="suite-API_Test-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.api.automation.tests.RecordDeleteTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="deleteForbidden">
+                  </a> <!-- deleteForbidden -->
+                  <span class="method-name">deleteForbidden</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="deleteInvalid">
+                  </a> <!-- deleteInvalid -->
+                  <span class="method-name">deleteInvalid</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="deleteNonexisting">
+                  </a> <!-- deleteNonexisting -->
+                  <span class="method-name">deleteNonexisting</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="deleteProduct">
+                  </a> <!-- deleteProduct -->
+                  <span class="method-name">deleteProduct</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="deletenoAuthentication">
+                  </a> <!-- deletenoAuthentication -->
+                  <span class="method-name">deletenoAuthentication</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="deletesameProduct">
+                  </a> <!-- deletesameProduct -->
+                  <span class="method-name">deletesameProduct</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-API_Test-class-passed -->
+          <div class="suite-API_Test-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.api.automation.tests.RecordGetTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="getInvalidAuthentication">
+                  </a> <!-- getInvalidAuthentication -->
+                  <span class="method-name">getInvalidAuthentication</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getListNotFound">
+                  </a> <!-- getListNotFound -->
+                  <span class="method-name">getListNotFound</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getListRecords">
+                  </a> <!-- getListRecords -->
+                  <span class="method-name">getListRecords</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getNoAuthentication">
+                  </a> <!-- getNoAuthentication -->
+                  <span class="method-name">getNoAuthentication</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getRecord">
+                  </a> <!-- getRecord -->
+                  <span class="method-name">getRecord</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-API_Test-class-passed -->
+          <div class="suite-API_Test-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.api.automation.tests.RecordPutTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="putForbidden">
+                  </a> <!-- putForbidden -->
+                  <span class="method-name">putForbidden</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="putInvalidAuthentication">
+                  </a> <!-- putInvalidAuthentication -->
+                  <span class="method-name">putInvalidAuthentication</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="putNoAuthentication">
+                  </a> <!-- putNoAuthentication -->
+                  <span class="method-name">putNoAuthentication</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="putRecordNotFound">
+                  </a> <!-- putRecordNotFound -->
+                  <span class="method-name">putRecordNotFound</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="putUpdateRecord">
+                  </a> <!-- putUpdateRecord -->
+                  <span class="method-name">putUpdateRecord</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-API_Test-class-passed -->
+          <div class="suite-API_Test-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.api.automation.tests.RecordPostTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="postMissingRequireddata">
+                  </a> <!-- postMissingRequireddata -->
+                  <span class="method-name">postMissingRequireddata</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="postRecord">
+                  </a> <!-- postRecord -->
+                  <span class="method-name">postRecord</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-API_Test-class-passed -->
+        </div> <!-- panel API_Test -->
+        <div panel-name="test-xml-API_Test" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\IVAN DARRELL\eclipse-workspace\rest-api-automation\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;API Test&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;API Automation&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.api.automation.tests.RecordPostTest&quot;/&gt;
+      &lt;class name=&quot;com.api.automation.tests.RecordGetTest&quot;/&gt;
+      &lt;class name=&quot;com.api.automation.tests.RecordPutTest&quot;/&gt;
+      &lt;class name=&quot;com.api.automation.tests.RecordDeleteTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- API Automation --&gt;
+&lt;/suite&gt; &lt;!-- API Test --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-API_Test" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for API Test</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">API Automation (4 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-API_Test" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for API Test</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">createRecord</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">postRecord</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-API_Test" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for API Test</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_API_Test');
+function tableData_API_Test() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(18);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'postMissingRequireddata')
+data.setCell(0, 2, 'com.api.automation.tests.RecordPostTest')
+data.setCell(0, 3, 1868);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'postRecord')
+data.setCell(1, 2, 'com.api.automation.tests.RecordPostTest')
+data.setCell(1, 3, 1084);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'getListRecords')
+data.setCell(2, 2, 'com.api.automation.tests.RecordGetTest')
+data.setCell(2, 3, 932);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'getInvalidAuthentication')
+data.setCell(3, 2, 'com.api.automation.tests.RecordGetTest')
+data.setCell(3, 3, 715);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'getListNotFound')
+data.setCell(4, 2, 'com.api.automation.tests.RecordGetTest')
+data.setCell(4, 3, 679);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'deleteForbidden')
+data.setCell(5, 2, 'com.api.automation.tests.RecordDeleteTest')
+data.setCell(5, 3, 675);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'deletenoAuthentication')
+data.setCell(6, 2, 'com.api.automation.tests.RecordDeleteTest')
+data.setCell(6, 3, 660);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'deleteProduct')
+data.setCell(7, 2, 'com.api.automation.tests.RecordDeleteTest')
+data.setCell(7, 3, 660);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'putUpdateRecord')
+data.setCell(8, 2, 'com.api.automation.tests.RecordPutTest')
+data.setCell(8, 3, 442);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'deleteInvalid')
+data.setCell(9, 2, 'com.api.automation.tests.RecordDeleteTest')
+data.setCell(9, 3, 441);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'getRecord')
+data.setCell(10, 2, 'com.api.automation.tests.RecordGetTest')
+data.setCell(10, 3, 429);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'putInvalidAuthentication')
+data.setCell(11, 2, 'com.api.automation.tests.RecordPutTest')
+data.setCell(11, 3, 428);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'getNoAuthentication')
+data.setCell(12, 2, 'com.api.automation.tests.RecordGetTest')
+data.setCell(12, 3, 423);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'deleteNonexisting')
+data.setCell(13, 2, 'com.api.automation.tests.RecordDeleteTest')
+data.setCell(13, 3, 422);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'putForbidden')
+data.setCell(14, 2, 'com.api.automation.tests.RecordPutTest')
+data.setCell(14, 3, 417);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'putRecordNotFound')
+data.setCell(15, 2, 'com.api.automation.tests.RecordPutTest')
+data.setCell(15, 3, 401);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'deletesameProduct')
+data.setCell(16, 2, 'com.api.automation.tests.RecordDeleteTest')
+data.setCell(16, 3, 381);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'putNoAuthentication')
+data.setCell(17, 2, 'com.api.automation.tests.RecordPutTest')
+data.setCell(17, 3, 360);
+window.suiteTableData['API_Test']= { tableData: data, tableDiv: 'times-div-API_Test'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 11 seconds</span>
+              <div id="times-div-API_Test">
+              </div> <!-- times-div-API_Test -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-API_Test" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for API Test</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-API_Test" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-API_Test" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.api.automation.tests.RecordPostTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">postMissingRequireddata</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">postRecord</span>
+                <span class="method-start">1871 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.api.automation.tests.RecordGetTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">getInvalidAuthentication</span>
+                <span class="method-start">2957 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getListNotFound</span>
+                <span class="method-start">3673 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getListRecords</span>
+                <span class="method-start">4353 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getNoAuthentication</span>
+                <span class="method-start">5286 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.api.automation.tests.RecordPutTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">putForbidden</span>
+                <span class="method-start">5710 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">putInvalidAuthentication</span>
+                <span class="method-start">6128 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">putNoAuthentication</span>
+                <span class="method-start">6556 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">putRecordNotFound</span>
+                <span class="method-start">6917 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.api.automation.tests.RecordDeleteTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">deleteForbidden</span>
+                <span class="method-start">7319 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">deleteInvalid</span>
+                <span class="method-start">7994 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">deleteNonexisting</span>
+                <span class="method-start">8435 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">deletenoAuthentication</span>
+                <span class="method-start">8857 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.api.automation.tests.RecordGetTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">getRecord</span>
+                <span class="method-start">9519 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.api.automation.tests.RecordPutTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">putUpdateRecord</span>
+                <span class="method-start">9950 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.api.automation.tests.RecordDeleteTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">deleteProduct</span>
+                <span class="method-start">10393 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">deletesameProduct</span>
+                <span class="method-start">11054 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

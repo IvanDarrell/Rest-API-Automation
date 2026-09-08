@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="18" passed="18" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-09-08T18:48:32 PST" name="API Test" finished-at="2026-09-08T18:48:43 PST" duration-ms="11470">
+    <groups>
+      <group name="createRecord">
+        <method signature="RecordPostTest.postRecord()[pri:0, instance:com.api.automation.tests.RecordPostTest@15043a2f]" name="postRecord" class="com.api.automation.tests.RecordPostTest"/>
+      </group> <!-- createRecord -->
+    </groups>
+    <test started-at="2026-09-08T18:48:32 PST" name="API Automation" finished-at="2026-09-08T18:48:43 PST" duration-ms="11470">
+      <class name="com.api.automation.tests.RecordDeleteTest">
+        <test-method signature="deleteForbidden()[pri:0, instance:com.api.automation.tests.RecordDeleteTest@48075da3]" started-at="2026-09-08T18:48:39 PST" name="deleteForbidden" finished-at="2026-09-08T18:48:40 PST" duration-ms="675" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteForbidden -->
+        <test-method signature="deleteInvalid()[pri:0, instance:com.api.automation.tests.RecordDeleteTest@48075da3]" started-at="2026-09-08T18:48:40 PST" name="deleteInvalid" finished-at="2026-09-08T18:48:40 PST" duration-ms="441" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteInvalid -->
+        <test-method signature="deleteNonexisting()[pri:0, instance:com.api.automation.tests.RecordDeleteTest@48075da3]" started-at="2026-09-08T18:48:40 PST" name="deleteNonexisting" finished-at="2026-09-08T18:48:41 PST" duration-ms="422" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteNonexisting -->
+        <test-method signature="deletenoAuthentication()[pri:0, instance:com.api.automation.tests.RecordDeleteTest@48075da3]" started-at="2026-09-08T18:48:41 PST" name="deletenoAuthentication" finished-at="2026-09-08T18:48:41 PST" duration-ms="660" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deletenoAuthentication -->
+        <test-method signature="deleteProduct()[pri:0, instance:com.api.automation.tests.RecordDeleteTest@48075da3]" started-at="2026-09-08T18:48:42 PST" name="deleteProduct" depends-on-groups="createRecord" finished-at="2026-09-08T18:48:43 PST" duration-ms="660" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteProduct -->
+        <test-method signature="deletesameProduct()[pri:0, instance:com.api.automation.tests.RecordDeleteTest@48075da3]" started-at="2026-09-08T18:48:43 PST" name="deletesameProduct" finished-at="2026-09-08T18:48:43 PST" depends-on-methods="com.api.automation.tests.RecordDeleteTest.deleteProduct" duration-ms="381" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deletesameProduct -->
+      </class> <!-- com.api.automation.tests.RecordDeleteTest -->
+      <class name="com.api.automation.tests.RecordGetTest">
+        <test-method signature="getInvalidAuthentication()[pri:0, instance:com.api.automation.tests.RecordGetTest@909217e]" started-at="2026-09-08T18:48:35 PST" name="getInvalidAuthentication" finished-at="2026-09-08T18:48:35 PST" duration-ms="715" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getInvalidAuthentication -->
+        <test-method signature="getListNotFound()[pri:0, instance:com.api.automation.tests.RecordGetTest@909217e]" started-at="2026-09-08T18:48:35 PST" name="getListNotFound" finished-at="2026-09-08T18:48:36 PST" duration-ms="679" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getListNotFound -->
+        <test-method signature="getListRecords()[pri:0, instance:com.api.automation.tests.RecordGetTest@909217e]" started-at="2026-09-08T18:48:36 PST" name="getListRecords" finished-at="2026-09-08T18:48:37 PST" duration-ms="932" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getListRecords -->
+        <test-method signature="getNoAuthentication()[pri:0, instance:com.api.automation.tests.RecordGetTest@909217e]" started-at="2026-09-08T18:48:37 PST" name="getNoAuthentication" finished-at="2026-09-08T18:48:37 PST" duration-ms="423" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getNoAuthentication -->
+        <test-method signature="getRecord()[pri:0, instance:com.api.automation.tests.RecordGetTest@909217e]" started-at="2026-09-08T18:48:41 PST" name="getRecord" depends-on-groups="createRecord" finished-at="2026-09-08T18:48:42 PST" duration-ms="429" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getRecord -->
+      </class> <!-- com.api.automation.tests.RecordGetTest -->
+      <class name="com.api.automation.tests.RecordPostTest">
+        <test-method signature="postMissingRequireddata()[pri:0, instance:com.api.automation.tests.RecordPostTest@15043a2f]" started-at="2026-09-08T18:48:32 PST" name="postMissingRequireddata" finished-at="2026-09-08T18:48:34 PST" duration-ms="1868" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postMissingRequireddata -->
+        <test-method signature="postRecord()[pri:0, instance:com.api.automation.tests.RecordPostTest@15043a2f]" started-at="2026-09-08T18:48:34 PST" name="postRecord" finished-at="2026-09-08T18:48:35 PST" duration-ms="1084" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postRecord -->
+      </class> <!-- com.api.automation.tests.RecordPostTest -->
+      <class name="com.api.automation.tests.RecordPutTest">
+        <test-method signature="putForbidden()[pri:0, instance:com.api.automation.tests.RecordPutTest@18271936]" started-at="2026-09-08T18:48:37 PST" name="putForbidden" finished-at="2026-09-08T18:48:38 PST" duration-ms="417" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- putForbidden -->
+        <test-method signature="putInvalidAuthentication()[pri:0, instance:com.api.automation.tests.RecordPutTest@18271936]" started-at="2026-09-08T18:48:38 PST" name="putInvalidAuthentication" finished-at="2026-09-08T18:48:38 PST" duration-ms="428" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- putInvalidAuthentication -->
+        <test-method signature="putNoAuthentication()[pri:0, instance:com.api.automation.tests.RecordPutTest@18271936]" started-at="2026-09-08T18:48:38 PST" name="putNoAuthentication" finished-at="2026-09-08T18:48:39 PST" duration-ms="360" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- putNoAuthentication -->
+        <test-method signature="putRecordNotFound()[pri:0, instance:com.api.automation.tests.RecordPutTest@18271936]" started-at="2026-09-08T18:48:39 PST" name="putRecordNotFound" finished-at="2026-09-08T18:48:39 PST" duration-ms="401" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- putRecordNotFound -->
+        <test-method signature="putUpdateRecord()[pri:0, instance:com.api.automation.tests.RecordPutTest@18271936]" started-at="2026-09-08T18:48:42 PST" name="putUpdateRecord" depends-on-groups="createRecord" finished-at="2026-09-08T18:48:42 PST" duration-ms="442" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- putUpdateRecord -->
+      </class> <!-- com.api.automation.tests.RecordPutTest -->
+    </test> <!-- API Automation -->
+  </suite> <!-- API Test -->
+</testng-results>
